@@ -1,0 +1,85 @@
+/*This specifies the body and html to have Montserrat font, if not sans serif*/
+body,
+html {
+  width: 100%; /*The 100% on width and height is always good to cover the full screen*/
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /*This adds my image that adapts to the pages resolution, taken from a website*/
+  background:  url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+.container {
+  height: 100%;
+  width: 60%;    /*The width on 60% fixes the weird purple bar that appears on the right of
+  the screen whenever the screen expands*/
+}
+
+
+
+h1 {
+  font-size: rem;
+  color: #e2dbdb;
+  /*text-transform: uppercase;*/
+}
+
+
+.buffer {
+  height: 3rem;
+}
+
+hr { /*An hr is a horizontal line*/
+    margin: 20px auto; /*This centers the element in the middle of the screen*/
+    color: #F05F44;
+    border: 2px solid; 
+    max-width: 65px; /*This tells the exact width you want for the horizontal line*/
+    opacity: 1;  /*Sets the transparency of an element*/
+    border-radius:2px;
+}
+
+
+.btn {
+  font-weight: 500; /*gives it more BOLDNESS effect*/
+  border-radius: 300px; /*makes the borders rounded using pixels*/
+  text-transform: uppercase ;
+}
+
+
+.btn-success {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  padding: 1rem 2rem; /*this is to make it bigger filling inside the box with padding*/
+
+}
+
+.btn-success:hover {
+  background-color: #ee4b08 ;
+  border-color:#F05F44;
+  border-width: 3px;
+}
+
+a {
+
+}
+
+
+
+/*I ADDED THE PADDING ON THE BTN-PRIMARY THINKING ITS USELESS TO ADD ANOTHER CLASS JUST TO MAKE THIS BUTTON BIGGER*/
+/*.btn-extraLarge {
+  1rem in the sides, 2rem for top and bottom
+  padding: 1rem 2rem; this is to make it bigger filling inside the box with padding
+
+}*/
+
+
+
+
+
+
